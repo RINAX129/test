@@ -8,6 +8,10 @@ public class Test {
 		taro.age=20;
 		System.out.println(taro.name);
 		System.out.println(taro.age);
+		taro.talk();
+		taro.walk();
+		taro.run();
+
 
 		Person jiro =new Person();
 		jiro.name="木村次郎";
@@ -15,17 +19,27 @@ public class Test {
 		System.out.println(jiro.name);
 		System.out.println(jiro.age);
 
+
 		Person hanako =new Person();
 		hanako.name="鈴木花子";
 		hanako.age=16;
 		System.out.println(hanako.name);
 		System.out.println(hanako.age);
 
+
 		Person rina =new Person();
 		rina.name="小沼梨奈";
 		rina.age=23;
 		System.out.println(rina.name);
 		System.out.println(rina.age);
+
+
+		Person abc=new Person();
+		System.out.println(abc.getNumber());
+
+
+		Person efg=new Person();
+		System.out.println(efg.getAddress());
 
 	}
 }
