@@ -5,6 +5,7 @@ public class Person {
 
 	public int age = 0;
 
+
 	public String phoneNumber =null;
 	public String getNumber(){
 		phoneNumber=null;
@@ -16,6 +17,7 @@ public class Person {
 		address=null;
 		return address;
 	}
+
 
 	public void talk(){
 		System.out.println(this.name+"が話す");
