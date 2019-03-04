@@ -2,9 +2,6 @@
 public class Robot {
 
 	public String name =null;
-	public String getName(){
-		return name;
-	}
 
 
 	public void talk(){
@@ -18,5 +15,7 @@ public class Robot {
 	public void run(){
 		System.out.println(this.name);
 	}
+
+
 
 }
