@@ -1,6 +1,5 @@
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=b2eef604dc91b66d0273237f84468d609f2daefe
 eclipse.preferences.version=1
-<<<<<<< HEAD
-org.eclipse.rse.preferences.order.connections=MyComputer.\u30ED\u30FC\u30AB\u30EB
-=======
-org.eclipse.rse.preferences.order.connections=VAIO.\u30ED\u30FC\u30AB\u30EB
->>>>>>> b2eef604dc91b66d0273237f84468d609f2daefe
+org.eclipse.rse.preferences.order.connections=MyComputer.\u30ED\u30FC\u30AB\u30EB;VAIO.\u30ED\u30FC\u30AB\u30EB

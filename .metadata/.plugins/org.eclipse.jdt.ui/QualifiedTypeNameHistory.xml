@@ -1,11 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<<<<<<< HEAD
 <qualifiedTypeNameHistroy/>
-=======
-<qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.util.Set"/>
-<fullyQualifiedTypeName name="person.Robot"/>
-</qualifiedTypeNameHistroy>
->>>>>>> b2eef604dc91b66d0273237f84468d609f2daefe

@@ -1,11 +1,7 @@
-<<<<<<< HEAD
-activeuserprofiles=MyComputer;Team
-eclipse.preferences.version=1
-org.eclipse.rse.systemtype.local.systemType.defaultUserId=testuser
-useridperkey=MyComputer.\u30ED\u30FC\u30AB\u30EB\=testuser;
-=======
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=b2eef604dc91b66d0273237f84468d609f2daefe
 activeuserprofiles=MyComputer;Team;VAIO
 eclipse.preferences.version=1
 org.eclipse.rse.systemtype.local.systemType.defaultUserId=RINAX
-useridperkey=VAIO.\u30ED\u30FC\u30AB\u30EB\=RINAX;
->>>>>>> b2eef604dc91b66d0273237f84468d609f2daefe
+useridperkey=MyComputer.\u30ED\u30FC\u30AB\u30EB\=RINAX;VAIO.\u30ED\u30FC\u30AB\u30EB\=RINAX;

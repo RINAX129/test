@@ -1,5 +1,5 @@
 
-public class CheckLoadJDBC {
+public class CheackLoadJDBC {
 
 	public static void main(String[] args) throws
 	InstantiationException,IllegalAccessException{
