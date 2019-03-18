@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
+<<<<<<< HEAD
 <entry loc="C:\pleiades\java\6" stamp="1517541835783"/>
 <entry loc="C:\pleiades\java\7" stamp="1517542210618"/>
 <entry loc="C:\pleiades\java\8" stamp="1517542645789"/>
+=======
+<entry loc="C:\pleiades\java\6" stamp="1550037450499"/>
+<entry loc="C:\pleiades\java\7" stamp="1550037561704"/>
+<entry loc="C:\pleiades\java\8" stamp="1550037724574"/>
+>>>>>>> b2eef604dc91b66d0273237f84468d609f2daefe
 </dirs>
