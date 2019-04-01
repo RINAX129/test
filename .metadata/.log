@@ -5420,7 +5420,11 @@ org.eclipse.recommenders.utils.Logs$LogTraceException
 	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
 	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
 	at java.lang.Thread.run(Thread.java:745)
+<<<<<<< HEAD
 !SESSION 2019-04-01 18:45:25.280 -----------------------------------------------
+=======
+!SESSION 2019-03-30 01:14:06.722 -----------------------------------------------
+>>>>>>> 403f0d994697643939c42ce1abed2f366f23b220
 eclipse.buildId=4.5.2.M20160212-1500
 java.version=1.8.0_74
 java.vendor=Oracle Corporation
@@ -5428,6 +5432,7 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.jface 2 0 2019-04-01 18:46:14.567
 !MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
 !SUBENTRY 1 org.eclipse.jface 2 0 2019-04-01 18:46:14.567
@@ -5450,6 +5455,9 @@ Binding(ALT+CTRL+SPACE,
 	org.eclipse.ui.textEditorScope,,,system)
 
 !ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2019-04-01 18:46:18.334
+=======
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2019-03-30 01:16:33.142
+>>>>>>> 403f0d994697643939c42ce1abed2f366f23b220
 !MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: com.google.gson.stream.MalformedJsonException: Expected ':' at line 4 column 10. ; バージョン: 1.100.0.v20160217-0435
 !STACK 0
 com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected ':' at line 4 column 10
@@ -5470,7 +5478,11 @@ Caused by: com.google.gson.stream.MalformedJsonException: Expected ':' at line 4
 	at com.google.gson.Gson.fromJson(Gson.java:803)
 	... 8 more
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.ui 4 0 2019-04-01 18:46:20.427
+=======
+!ENTRY org.eclipse.ui 4 0 2019-03-30 01:16:44.694
+>>>>>>> 403f0d994697643939c42ce1abed2f366f23b220
 !MESSAGE 未処理のイベント・ループ例外
 !STACK 0
 org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NoSuchMethodError: org.eclipse.ui.internal.registry.FileEditorMapping.setDefaultEditor(Lorg/eclipse/ui/internal/registry/EditorDescriptor;)V)
@@ -5508,6 +5520,7 @@ Caused by: java.lang.NoSuchMethodError: org.eclipse.ui.internal.registry.FileEdi
 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
 	... 23 more
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.datatools.connectivity 2 -1 2019-04-01 19:41:23.867
 !MESSAGE testdb への JDBC 接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
 !STACK 0
@@ -5652,3 +5665,25 @@ java.sql.SQLException: Access denied for user 'root'@'localhost' (using password
 	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:166)
 	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+=======
+!ENTRY org.eclipse.jface 2 0 2019-03-30 01:17:24.442
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-03-30 01:17:24.442
+!MESSAGE ALT+CTRL+SPACE の競合が発生しました:
+Binding(ALT+CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.recommenders.snipmatch.rcp.commands.completion,Snipmatch スニペット・コンプリート,
+		Open a dialog to search for and insert code snippets,
+		Category(org.eclipse.jdt.ui.category.source,ソース,Java ソース・アクション,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@376ba8e3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+CTRL+SPACE,
+	ParameterizedCommand(Command(AnyEdit.CnvrtTabToSpaces.command,タブをスペースに,
+		,
+		Category(AnyEdit.category,AnyEdit ツール,AnyEdit ツール・キー・バインド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5434de8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+>>>>>>> 403f0d994697643939c42ce1abed2f366f23b220
