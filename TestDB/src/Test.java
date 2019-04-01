@@ -14,6 +14,6 @@ public class Test {
 
 	dao.insert(4, "shiro", "012");
 
-	dao.delete("jiro");
+	dao.delete("shiro");
 	}
 }
