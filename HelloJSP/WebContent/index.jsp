@@ -1,9 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>TEST</title>
+ <head>
+ <meta charset="UTF-8">
+ <title>TEST</title>
 </head>
 
 <body>
@@ -22,9 +22,9 @@ static int add(int a, int b){
 <%! static int countA=0; %>
 <%
 int countB=0;
-
 countA++;
-countB++;%>
+countB++;
+%>
 
 <p>宣言による変数countA=<%=countA %></p>
 <p>スクリプトレットによる変数countB=<%=countB %></p>
@@ -42,7 +42,7 @@ countB++;%>
 <input type="text" name="price">
 円x
 <input type="text" name="count">
-個＋送料
+個+送料
 <input type="text" name="delivery">
 円=
 <input type="submit" value="計算">

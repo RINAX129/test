@@ -1,14 +1,13 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+ <head>
+ <meta charset="UTF-8">
+ <title>TEST</title>
 </head>
 
 <body>
-<%@page isErrorPage="ture" %>
+<%@page isErrorPage="true" %>
 <p>数値を入力してください。</p>
 <button onclick="history.back()">戻る</button>
 <br>
@@ -16,7 +15,7 @@
 <table border=1>
 <tr>
  <td><strong>エラーメッセージ</strong></td>
- <td><%= exception.getMassage() %></td>
+ <td><%= exception.getMessage() %></td>
 </tr>
 <tr>
  <td><strong>例外を文字列に変換</strong></td>
@@ -28,7 +27,8 @@
  <%
  exception.printStackTrace(new java.io.PrintWriter(out));
  %>
-</td></tr>
+ </td></tr>
 </table>
+
 </body>
 </html>
