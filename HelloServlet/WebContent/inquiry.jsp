@@ -8,7 +8,7 @@
 </head>
 
 <body>
-<form method="post" action="InqiryServlet">
+<form method="post" action="InquiryServlet">
  名前：<br><input type="text" name="name"><br>
  お問合せの種類：<br><select name="qtype">
   <option value="company">会社について</option>
