@@ -1,6 +1,6 @@
 set names utf8;
 set foreign_key_checks = 0;
-drop database if exists logindb onuma;
+drop database if exists logindb_onuma;
 create database logindb_onuma;
 use logindb_onuma;
 
