@@ -12,5 +12,26 @@
   <s:submit value="HelloStruts"/>
  </s:form>
 
+ <s:form action="HelloStrutsAction">
+ <s:submit value="HelloStruts"/>
+ </s:form>
+
+ <s:form action="InquiryAction">
+  <s:submit value="問い合わせ"/>
+ </s:form>
+
+ <h3>新規ユーザー登録</h3>
+ GET通信
+ <s:form method="get" action="TestAction">
+ <s:textfild name="username"/>
+ <s:password name="password"/>
+ <s:submit value="送信"/>
+ </s:form>
+ POST通信
+ <s:form method="post" action="TestAction">
+ <s:textfild name="username"/>
+ <s:password name="password"/>
+ <s:submit value="送信"/>
+ </s:form>
 </body>
 </html>
