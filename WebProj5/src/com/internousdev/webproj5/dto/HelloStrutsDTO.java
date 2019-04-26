@@ -31,7 +31,7 @@ public class HelloStrutsDTO {
 		this.password = password;
 	}
 
-	public String Result(){
+	public String getResult(){
 		return result;
 	}
 
