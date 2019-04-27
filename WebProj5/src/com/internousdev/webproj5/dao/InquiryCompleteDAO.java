@@ -12,7 +12,7 @@ import com.internousdev.webproj5.util.DBConnector;
 
 public class InquiryCompleteDAO {
 
-	List<InquiryDTO> InquiryDTOList = new ArrayList<InquiryDTO>();
+	List<InquiryDTO> inquiryDTOList = new ArrayList<InquiryDTO>();
 
 	public List<InquiryDTO> select(){
 		DBConnector db = new DBConnector();
@@ -28,7 +28,7 @@ public class InquiryCompleteDAO {
 				dto.setName(rs.getString("name"));
 				dto.setQtype(rs.getString("qtype"));
 				dto.setBody(rs.getString("body"));
-				InquiryDTOList.add(dto);
+				inquiryDTOList.add(dto);
 			}
 		}catch(SQLException e){
 			e.printStackTrace();
@@ -38,7 +38,7 @@ public class InquiryCompleteDAO {
 		}catch(SQLException e){
 			e.printStackTrace();
 		}
-		return InquiryDTOList;
+		return inquiryDTOList;
 	}
 
 	public int insert(String name, String qtype, String body){
