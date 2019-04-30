@@ -10,7 +10,7 @@ import com.internousdev.webproj5.dao.TestDAO;
 import com.internousdev.webproj5.dto.LoginDTO;
 import com.opensymphony.xwork2.ActionSupport;
 
-public class TestAction extends ActionSupport implements SessionAware {
+public class TestAction extends ActionSupport implements SessionAware{
 
 	private String username;
 	private String password;
@@ -41,7 +41,7 @@ public class TestAction extends ActionSupport implements SessionAware {
 		return username;
 	}
 
-	public void setUsertname(String username){
+	public void setUsername(String username){
 		this.username = username;
 	}
 
@@ -49,7 +49,7 @@ public class TestAction extends ActionSupport implements SessionAware {
 		return password;
 	}
 
-	public void setPassowd(String password){
+	public void setPassword(String password){
 		this.password = password;
 	}
 
