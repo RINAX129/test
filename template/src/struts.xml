@@ -4,8 +4,8 @@
 "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
 "http://struts.apache.org/dtds/struts-2.3.dtd">
 
-<strts>
+<struts>
 	<constant name="struts.devMode" value="true"/>
 	<package name="com.internousdev.template.action" extends="struts-default">
 	</package>
-</strts>
+</struts>
