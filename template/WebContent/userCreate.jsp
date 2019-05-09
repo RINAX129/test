@@ -10,7 +10,7 @@
 	<meta http-equiv="imagetoolbar" content="no"/>
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
-	<title>Home画面</title>
+	<title>UserCreate画面</title>
 
 	<style type="text/css">
 		body{
@@ -18,10 +18,10 @@
 			padding:0;
 			line-height:1.6;
 			letter-spacing:1px;
-			font-family:Verdana,Helvetica,sans-serif;
+			font-family:Verdana,Helvetia,sans-serif;
 			font-size:12px;
 			color:#333;
-			background:#fff;
+			backgroung-color:#fff;
 		}
 
 		table{
@@ -43,7 +43,7 @@
 
 		#main{
 			width:100%;
-			height:500px;
+			ehight:500px;
 			text-align:center;
 		}
 
@@ -60,20 +60,54 @@
 		<div id="pr">
 		</div>
 	</div>
+
 	<div id="main">
 		<div id="top">
-			<p>Home</p>
+			<p>UserCreate</p>
 		</div>
 		<div>
-			<s:form action="HomeAction">
-				<s:submit value="商品購入"/>
+			<s:if test="errorMessage !=">
+				<s:property value="errorMessage" escape="false"/>
+			</s:if>
+			<table>
+			<s:form action="UserCreateConfirmAction">
+				<tr>
+					<td>
+						<label>ログインID:</label>
+					</td>
+					<td>
+						<input type="text" name="loginUserId" value=""/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>ログインPASS:</label>
+					</td>
+					<td>
+						<input type="text" name="loginPassword" value=""/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>ユーザー名:</label>
+					</td>
+					<td>
+						<input type="text" name="userName" value=""/>
+					</td>
+				</tr>
+				<s:submit value="登録"/>
 			</s:form>
+			</table>
+			<div>
+				<span>前画面に戻るには</span>
+				<a href='<s:url action="HomeAction"/>'>こちら</a>
+			</div>
 		</div>
 	</div>
+
 	<div id="footer">
 		<div id="pr">
 		</div>
 	</div>
-
 </body>
 </html>

@@ -10,7 +10,7 @@
 	<meta http-equiv="imagetoolbar" content="no"/>
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
-	<title>Home画面</title>
+	<title>UserCreateConfirm画面</title>
 
 	<style type="text/css">
 		body{
@@ -60,20 +60,52 @@
 		<div id="pr">
 		</div>
 	</div>
+
 	<div id="main">
 		<div id="top">
-			<p>Home</p>
+			<p>UserCreateConfirm</p>
 		</div>
 		<div>
-			<s:form action="HomeAction">
-				<s:submit value="商品購入"/>
-			</s:form>
+			<h3>登録する内容は以下でよろしいですか。</h3>
+			<table>
+				<s:form action="UserCreateCompleteAction">
+					<tr id="box">
+						<td>
+							<label>ログインID:</label>
+						</td>
+						<td>
+							<s:property value="loginUserId" escape="false"/>
+						</td>
+					</tr>
+					<tr id="box">
+						<td>
+							<label>ログインPASS:</label>
+						</td>
+						<td>
+							<s:property value="loginPassword" escape="false"/>
+						</td>
+					</tr>
+					<tr id="box">
+						<td>
+							<label>ユーザー名:</label>
+						</td>
+						<td>
+							<s:property value="userName" escape="false"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<s:submit value="完了"/>
+						</td>
+					</tr>
+				</s:form>
+			</table>
 		</div>
 	</div>
+
 	<div id="footer">
 		<div id="pr">
 		</div>
 	</div>
-
 </body>
 </html>

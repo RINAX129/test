@@ -17,5 +17,14 @@
 			<result name="error">home.jsp</result>
 		</action>
 
+		<action name="UserCreateAction" class="com.internousdev.template.action.UserCreateAction" method="execute">
+			<result name="success">userCreate.jsp</result>
+		</action>
+
+		<action name="UserCreateConfirmAction" class="com.internousdev.template.action.UserCreateConfirmAction" method="execute">
+			<result name="success">userCreateConfirm.jsp</result>
+			<result name="error">userCreate.jsp</result>
+		</action>
+
 	</package>
 </struts>
