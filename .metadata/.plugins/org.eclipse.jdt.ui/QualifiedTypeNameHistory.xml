@@ -44,4 +44,10 @@
 <fullyQualifiedTypeName name="org.apache.struts2.interceptor.SessionAware"/>
 <fullyQualifiedTypeName name="com.internousdev.template.dao.BuyItemCompleteDAO"/>
 <fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
+<<<<<<< HEAD
+=======
+<fullyQualifiedTypeName name="com.internousdev.template.dao.UserCreateCompleteDAO"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+>>>>>>> 102ae99b76ec3062f1f187dff5396ed7bd1c2280
 </qualifiedTypeNameHistroy>
