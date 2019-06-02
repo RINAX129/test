@@ -31,7 +31,7 @@ public class MyPageDTO {
 		this.totalCount = totalCount;
 	}
 
-	public String Payment(){
+	public String getPayment(){
 		return this.payment;
 	}
 
