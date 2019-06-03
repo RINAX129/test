@@ -14,7 +14,7 @@ public class MyPageDAO {
 		DBConnector dbConnector = new DBConnector();
 		Connection connection = dbConnector.getConnection();
 		MyPageDTO myPageDTO = new MyPageDTO();
-		String sql = "SELECT iit.item_name, ubit.total_price, ubit.total_count, ubit.pay FROM user_buy_item_transaction ubit LEFT JOIN item_info_transaction iit ON ubit.item_transaction_id = iit.id WHERE ubit.item_transaction_id= ? AND ubit.user_master_id = ? ORDER BY ubit.insert_date DESC";
+		String sql = "SELECT iit.item_name, ubit.total_price, ubit.total_count, ubit.pay FROM user_buy_item_transaction ubit LEFT JOIN item_info_transaction iit ON ubit.item_transaction_id = iit.id WHERE ubit.item_transaction_id = ? AND ubit.user_master_id = ? ORDER BY ubit.insert_date DESC";
 
 		try{
 			PreparedStatement preparedStatement= connection.prepareStatement(sql);
@@ -26,7 +26,7 @@ public class MyPageDAO {
 				myPageDTO.setItemName(resultSet.getString("item_name"));
 				myPageDTO.setTotalPrice(resultSet.getString("total_price"));
 				myPageDTO.setTotalCount(resultSet.getString("total_count"));
-				myPageDTO.setPayment(resultSet.getString("payment"));
+				myPageDTO.setPayment(resultSet.getString("pay"));
 			}
 		}catch(Exception e){
 			e.printStackTrace();
@@ -40,7 +40,7 @@ public class MyPageDAO {
 		DBConnector dbConnector = new DBConnector();
 		Connection connection = dbConnector.getConnection();
 
-		String sql = "DELETE FROM user_nuy_item_transaction WHERE item_transaction_id = ? AND user_master_id = ?";
+		String sql = "DELETE FROM user_buy_item_transaction WHERE item_transaction_id = ? AND user_master_id = ?";
 		PreparedStatement preparedStatement;
 		int result = 0;
 
