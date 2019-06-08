@@ -14,7 +14,7 @@ create table login_user_transaction(
 	login_pass varchar(16),
 	user_name varchar(50),
 	insert_date datetime,
-	update_date datetime
+	updated_date datetime
 );
 
 drop table if exists item_info_transaction;
