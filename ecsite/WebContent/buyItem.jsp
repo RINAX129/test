@@ -6,7 +6,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<meta http-equiv="Content-Style-Type" content="text/css"/>
-	<meta http-equiv="Content-Script-Type" content="javascript"/>
+	<meta http-equiv="Content-Script-Type" content="text/javascript"/>
 	<meta http-equiv="imagetoolbar" content="no"/>
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
@@ -18,10 +18,10 @@
 			padding:0;
 			line-height:1.6;
 			letter-spacing:1px;
-			font-famiry:Verdana,Helvetica,sans-serif;
+			font-family:Verdana,Helvetica,sans-serif;
 			font-size:12px;
 			color:#333;
-			backgroung:#fff;
+			background:#fff;
 		}
 
 		table{
@@ -80,7 +80,7 @@
 						<span>値段</span>
 					</td>
 					<td>
-						<s:property value="session.buytItem_price"/><span>円</span>
+						<s:property value="session.buyItem_price"/><span>円</span>
 					</td>
 				</tr>
 				<tr>

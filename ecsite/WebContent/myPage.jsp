@@ -50,13 +50,13 @@
 		#footer{
 			width:100%;
 			height:80px;
-			background-color:balck;
+			background-color:black;
 			clear:both;
 		}
 
 		#text-right{
 			display:inline-block;
-			text-align:center;
+			text-align:right;
 		}
 	</style>
 </head>
@@ -80,13 +80,14 @@
 					<th>商品名</th>
 					<th>値段</th>
 					<th>購入個数</th>
+					<th>支払い方法</th>
 					<th>購入日</th>
 				</tr>
 				<s:iterator value="myPageList">
 					<tr>
 						<td><s:property value="itemName"/></td>
-						<td><s:property value="totalPrice"/></td>
-						<td><s:property value="totalCount"/></td>
+						<td><s:property value="totalPrice"/><span>円</span></td>
+						<td><s:property value="totalCount"/><span>個</span></td>
 						<td><s:property value="payment"/></td>
 						<td><s:property value="insert_date"/></td>
 					</tr>

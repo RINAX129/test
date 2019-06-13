@@ -6,7 +6,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<meta http-equiv="Content-Style-Type" content="text/css"/>
-	<meta http-equiv="Content-Script-Type" content="jabascript"/>
+	<meta http-equiv="Content-Script-Type" content="text/javascript"/>
 	<meta http-equiv="imagetoolbar" content="no"/>
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
@@ -37,8 +37,8 @@
 
 		#header{
 			width:100%;
-			heidht:80px;
-			backgroud-color:black;
+			height:80px;
+			background-color:black;
 		}
 
 		#main{
@@ -94,7 +94,7 @@
 					</tr>
 					<tr>
 						<td>
-							<s:property value="完了"/>
+							<s:submit value="完了"/>
 						</td>
 					</tr>
 				</s:form>

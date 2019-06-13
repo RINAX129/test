@@ -6,7 +6,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<meta http-equiv="Content-Style-Type" content="text/css"/>
-	<meta http-equiv="Content-Script-Type" content="javascript"/>
+	<meta http-equiv="Content-Script-Type" content="text/javascript"/>
 	<meta http-equiv="imagetoolbar" content="no"/>
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
@@ -65,11 +65,11 @@
 			<p>UserCreate</p>
 		</div>
 		<div>
-			<s:if test="erorMessage !=''">
+			<s:if test="errorMessage !=''">
 				<s:property value="errorMessage" escape="false"/>
 			</s:if>
 			<table>
-				<s:form action="UserCreateAction">
+				<s:form action="UserCreateConfirmAction">
 					<tr>
 						<td>
 							<label>ログインID:</label>
