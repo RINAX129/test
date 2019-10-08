@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<item value="0" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
 	<item value="C:\Users\testuser\Desktop\workspace\workspace-onuma\test\.git" key="GitSelectRepositoryPage.lastRepository"/>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="file:///C:\Users\RINAX\Desktop\Workspace\workspace-onuma\test"/>
+	</list>
 	<section name="GitImportWizard">
 		<item value="true" key="GitProjectsImportPage.STORE_NESTED_PROJECTS"/>
 	</section>

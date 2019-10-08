@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 [[{"location":"C:\\Users\\testuser\\Desktop\\workspace\\workspace-onuma\\test\\template","type":"PROJECT","hints":{"PROJECT_NAME":"template"}},"ABSENT"],[{"location":"C:\\pleiades\\java\\8","type":"JRE","hints":{}},"jre:jre:1.8.0"],[{"location":"C:\\Users\\testuser\\Desktop\\workspace\\workspace-onuma\\test\\template\\WebContent\\WEB-INF\\lib\\xwork-core-2.3.37.jar","type":"JAR","hints":{}},"org.apache.struts.xwork:xwork-core:2.3.37"]]
+=======
+{}
+>>>>>>> 9d5810e9433f8a1fcb3083336a406d818cdc1bf7

@@ -3,7 +3,7 @@ public class Person{
 
 	public String name =null;
 	public int age =0;
-	//nullと0は初期値
+	//nullと0は初期値。Testクラスからnameとageが来る
 
 
 	//演習③
@@ -32,7 +32,4 @@ public class Person{
 	public void run(){
 		System.out.println(this.name+"が走る");
 	}
-
-
-
 }

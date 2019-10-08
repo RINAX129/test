@@ -81,8 +81,13 @@
 						<span>値段</span>
 					</td>
 					<td>
+<<<<<<< HEAD
 						<s:property value="session.buyItem_price"/>
 							<span>円</span>
+=======
+					<s:property value="session.buyItem_price"/>
+						<span>円</span>
+>>>>>>> 9d5810e9433f8a1fcb3083336a406d818cdc1bf7
 					</td>
 				</tr>
 				<tr>
@@ -116,7 +121,11 @@
 			</table>
 		</s:form>
 			<div>
+<<<<<<< HEAD
 				<span>前画面に戻るには</span>
+=======
+				<span>前画面に戻る場合は</span>
+>>>>>>> 9d5810e9433f8a1fcb3083336a406d818cdc1bf7
 				<a href='<s:url action="HomeAction"/>'>こちら</a>
 			</div>
 		</div>

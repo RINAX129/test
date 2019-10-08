@@ -8,6 +8,7 @@
 	<meta http-equiv="Content-Style-Type" content="text/css"/>
 	<meta http-equiv="Content-Script-Type" content="text/javascript"/>
 	<meta http-equiv="imagetoolbar" content="no"/>
+	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
 	<title>Home画面</title>
 
@@ -64,7 +65,7 @@
 			<p>Home</p>
 		</div>
 		<div>
-			<s:form action="HomeAcion">
+			<s:form action="HomeAction">
 				<s:submit value="商品購入"/>
 			</s:form>
 		</div>

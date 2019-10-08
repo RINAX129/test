@@ -8,6 +8,7 @@
 	<meta http-equiv="Content-Style-Type" content="text/css"/>
 	<meta http-equiv="Content-Script-Type" content="text/javascript"/>
 	<meta http-equiv="imagetoolbar" content="no"/>
+	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
 	<title>Login画面</title>
 
@@ -65,9 +66,9 @@
 			<p>Login</p>
 		</div>
 		<div>
-			<h3>商品を購入するにはログインをお願いします。</h3>
+			<h3>商品を購入する際にはログインをお願いします。</h3>
 			<s:form action="LoginAction">
-				<s:textfield name="lognUserId"/>
+				<s:textfield name="loginUserId"/>
 				<s:password name="loginPassword"/>
 				<s:submit value="ログイン"/>
 			</s:form>

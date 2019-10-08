@@ -4,15 +4,18 @@ public class Test{
 	public static void main(String[] args){
 
 
-		Person taro =new Person();
-		taro.name="山田太郎";
-		taro.age=20;
-		System.out.println(taro.name);
-		System.out.println(taro.age);
-		taro.talk();
-		taro.walk();
-		taro.run();
-		//演習⑥
+		Person taro =new Person(); //Person()をインスタンス化して変数taroに代入
+		taro.name="山田太郎"; //.を使ってnameを呼び出す
+		taro.age=20; //ageを呼び出す
+
+		System.out.println(taro.name); //山田太郎が出力される
+		System.out.println(taro.age); //20が出力される
+
+
+		//演習⑥ Personクラスのメソッドを呼び出す
+		taro.talk(); //山田太郎が話すが出力される
+		taro.walk(); //山田太郎が歩くが出力される
+		taro.run(); //山田太郎が走るが出力される
 
 
 		//演習②
@@ -36,14 +39,14 @@ public class Test{
 
 
 		//演習④
-		Person abc =new Person();
-		System.out.println(abc.getNumber());
+		Person number =new Person();
+		System.out.println(number.getNumber());
 
-		Person efg =new Person();
-		System.out.println(efg.getAddress());
+		Person address =new Person();
+		System.out.println(address.getAddress());
 
 
-		//演習⑧
+		//演習⑧ Robotクラスのメソッドをインスタンス化して出力できるようにする
 		Robot aibo =new Robot();
 		aibo.name="aibo";
 		System.out.println(aibo.name);
